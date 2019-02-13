@@ -1,4 +1,16 @@
 body {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+    
+}
+
+.text { 
+    padding: .5em;
+}
+
+main{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  padding: .5em;
 }
